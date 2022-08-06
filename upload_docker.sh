@@ -11,7 +11,7 @@ echo "$username $dockerpath"
 
 # Step 2:  
 # Authenticate & tag
-docker login -u $username
+docker login
 echo "Docker ID and Image: $dockerpath"
 echo "Please enter current version tag"
 read version

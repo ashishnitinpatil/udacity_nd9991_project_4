@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+NAME       STATUS   ROLES           AGE   VERSION
+minikube   Ready    control-plane   20h   v1.24.3
+error: failed to create deployment: deployments.apps "nd9991-project-4" already exists
+NAME                                READY   STATUS    RESTARTS   AGE
+nd9991-project-4-65899b8869-dj996   1/1     Running   0          48s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
